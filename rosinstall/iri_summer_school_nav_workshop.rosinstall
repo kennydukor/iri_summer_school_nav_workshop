@@ -1,0 +1,141 @@
+###iri_core/
+- git:
+    local-name: iri_core/iri_action_server
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/iri_core/iri_action_server.git
+    version: master
+- git:
+    local-name: iri_core/iri_base_algorithm
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/iri_core/iri_base_algorithm.git
+    version: master
+- git:
+    local-name: iri_core/iri_base_driver
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/iri_core/iri_base_driver.git
+    version: master
+- git:
+    local-name: iri_core/iri_ros_tools
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/iri_core/iri_ros_tools.git
+    version: master
+
+###ana_sim.rosinstall
+##################################
+###navigation/
+- git:
+    local-name: navigation/iri_gazebo_worlds
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/navigation/iri_gazebo_worlds.git
+- git:
+    local-name: navigation/iri_maps
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/navigation/iri_maps.git
+- git:
+    local-name: navigation/iri_rosnav
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/navigation/iri_rosnav.git
+    version: master
+- git:
+    local-name: navigation/iri_teleop_launch
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/navigation/iri_teleop_launch.git
+    version: master
+##################################
+###platforms/pioneer3
+- git:
+    local-name: platforms/iri_skid_steering_gazebo
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/platforms/iri_skid_steering_gazebo.git
+- git:
+    local-name: platforms/pioneer3/iri_pioneer3_description
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/platforms/Pioneer3/iri_pioneer3_description.git
+##################################
+###robots/ana    
+- git:
+    local-name: robots/ana/iri_ana_description
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/robots/ana/iri_ana_description.git
+- git:
+    local-name: robots/ana/iri_ana_gazebo
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/robots/ana/iri_ana_gazebo.git
+- git:
+    local-name: robots/ana/iri_ana_how_to
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/robots/ana/iri_ana_how_to.git
+- git:
+    local-name: robots/ana/iri_ana_rosnav
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/robots/ana/iri_ana_rosnav.git
+- git:
+    local-name: robots/ana/iri_ana_launch
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/robots/ana/iri_ana_launch.git
+##################################
+###sensors
+- git:
+    local-name: sensors/imu/iri_bno055_imu_description
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/sensors/imu/iri_bno055_imu_description.git
+- git:
+    local-name: sensors/ranger3d/iri_velodyne_lidar_description
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/sensors/ranger3d/iri_velodyne_lidar_description.git
+- git:
+    local-name: sensors/depth_cameras/iri_realsense_depth_description
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/sensors/depth/iri_realsense_depth_description.git
+- git:
+    local-name: sensors/imu/iri_imu_gazebo
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/sensors/imu/iri_imu_gazebo.git
+    version: master
+- git:
+    local-name: sensors/ranger3d/iri_velodyne_gazebo
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/sensors/ranger3d/iri_velodyne_gazebo.git
+- git:
+    local-name: sensors/depth_cameras/iri_depth_camera_gazebo
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/sensors/depth/iri_depth_camera_gazebo.git
+- git:
+    local-name: sensors/imu/iri_microstrain_imu_description
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/sensors/imu/iri_microstrain_imu_description.git
+##################################
+###devices
+- git:
+    local-name: devices/dynamixel_pan_tilt/iri_dynamixel_pan_tilt_description
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/devices/dynamixel_pan_tilt/iri_dynamixel_pan_tilt_description.git
+- git:
+    local-name: devices/dynamixel_pan_tilt/iri_dynamixel_pan_tilt_gazebo
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/devices/dynamixel_pan_tilt/iri_dynamixel_pan_tilt_gazebo.git
+- git:
+    local-name: devices/joints/iri_joint_trajectory_gazebo
+    uri: https://gitlab.iri.upc.edu/labrobotica/ros/devices/joints/iri_joint_trajectory_gazebo.git
+    version: master
+##################################
+###external
+
+##################################
+###3d_navigation
+- git:
+    local-name: 3d_navigation/iri_3d_navigation_how_to
+    uri: https://gitlab.iri.upc.edu/mobile_robotics/colrobtransp/3d_navigation/iri_3d_navigation_how_to.git
+    version: master
+- git:
+    local-name: 3d_navigation/iri_average_point_cloud
+    uri: https://gitlab.iri.upc.edu/mobile_robotics/colrobtransp/3d_navigation/iri_average_point_cloud.git
+    version: master
+- git:
+    local-name: 3d_navigation/iri_lidar_obstacle_detection
+    uri: https://gitlab.iri.upc.edu/mobile_robotics/colrobtransp/3d_navigation/iri_lidar_obstacle_detection.git
+    version: master
+- git:
+    local-name: 3d_navigation/iri_obstacle_detection_normals
+    uri: https://gitlab.iri.upc.edu/mobile_robotics/colrobtransp/3d_navigation/iri_obstacle_detection_normals.git
+    version: master
+- git:
+    local-name: 3d_navigation/iri_point_cloud_angle_filter
+    uri: https://gitlab.iri.upc.edu/mobile_robotics/colrobtransp/3d_navigation/iri_point_cloud_angle_filter.git
+    version: master
+- git:
+    local-name: 3d_navigation/iri_point_cloud_hole_detection
+    uri: https://gitlab.iri.upc.edu/mobile_robotics/colrobtransp/3d_navigation/iri_point_cloud_hole_detection.git
+    version: master
+- git:
+    local-name: 3d_navigation/velodyne_simulator
+    uri: https://gitlab.iri.upc.edu/mobile_robotics/colrobtransp/3d_navigation/velodyne_simulator.git
+    version: master
+- git:
+    local-name: 3d_navigation/recovery_behaviors
+    uri: https://gitlab.iri.upc.edu/mobile_robotics/colrobtransp/3d_navigation/recovery_behaviors.git
+    version: master
+
+###navigation_workshop
+- git:
+    local-name: navigation_workshop/iri_exploration
+    uri: https://gitlab.iri.upc.edu/mobile_robotics/summerschool2020/navigation_workshop/iri_exploration.git
+- git:
+    local-name: navigation_workshop/sc20_nav_workshop_how_to
+    uri: https://gitlab.iri.upc.edu/mobile_robotics/summerschool2020/navigation_workshop/sc20_nav_workshop_how_to.git
